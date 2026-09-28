@@ -8,7 +8,7 @@
 | **Contexto** | Projeto Integrador (PII) — Análise e Desenvolvimento de Sistemas (SENAI) |
 | **Patrocinador / Orientação** | Coordenação ADS SENAI / Docentes Orientadores |
 | **Gerente do Projeto** | Julio Coronetti Regino |
-| **Equipe** | Julio Coronetti Regino, Gizela Alves, Juan Abner Correa, Matheus Pulcinelli, Murilo Antunes, Victor Cavalciuk |
+| **Equipe** | Julio Coronetti Regino, Gizela Alves, Juan Abner Correa, Matheus Pulcinelli, Murilo Antunes da Silva, Victor Cavalciuk |
 | **Data** | 15/08/2026 |
 | **Versão** | 1.0 |
 

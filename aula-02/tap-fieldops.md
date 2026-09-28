@@ -7,8 +7,8 @@
 | **Projeto** | FieldOps — Sistema de Gerenciamento e Execução de Inspeções em Campo |
 | **Contexto** | Projeto de Referência da Disciplina de Gestão de Projetos (SENAI ADS) |
 | **Patrocinador / Orientação** | Prof. Me. Deivison S. Takatu / Docência SENAI |
-| **Gerente do Projeto** | Julio Coronetti Regino |
-| **Equipe** | Julio Coronetti Regino, Gizela Alves, Juan, Matheus, Murilo, Pedro Vieira |
+| **Gerente do Projeto** | Murilo Antunes da Silva |
+| **Equipe** | Murilo Antunes da Silva, Julio Coronetti Regino, Gizela Alves, Juan, Matheus, Pedro Vieira |
 | **Data** | 15/08/2026 |
 | **Versão** | 1.0 |
 

@@ -5,7 +5,8 @@
 | Campo | Informação |
 |---|---|
 | **Projeto** | FieldOps — Sistema de Gerenciamento e Execução de Inspeções em Campo |
-| **Responsável** | Julio Coronetti Regino / Equipe FieldOps |
+| **Gerente do Projeto** | Murilo Antunes da Silva |
+| **Responsável** | Murilo Antunes da Silva / Equipe FieldOps |
 | **Data** | 12/09/2026 |
 
 ---
@@ -60,13 +61,13 @@
 
 | ID | Abordagem | Ação Preventiva (Mitigação / Eliminação) | Ação de Contingência | Responsável |
 |---|---|---|---|---|
-| R01 | Evitar | Manter ambiente espelho completo via `docker-compose.yml` rodando localmente no notebook da apresentação | Alternar para execução local (`localhost`) ou roteamento 4G dedicado | Murilo |
+| R01 | Evitar | Manter ambiente espelho completo via `docker-compose.yml` rodando localmente no notebook da apresentação | Alternar para execução local (`localhost`) ou roteamento 4G dedicado | Murilo Antunes da Silva |
 | R02 | Mitigar | Gerar UUID único no mobile para cada operação na fila Outbox e validar idempotência no endpoint da API | Ignorar UUIDs já processados no servidor retornando confirmação sem regravar | Pedro Vieira |
 | R03 | Mitigar | Persistir cada resposta e referência de foto no SQLite local imediatamente após a interação do técnico | Restaurar automaticamente o rascunho da inspeção em aberto ao reabrir o app | Julio Coronetti Regino |
 | R04 | Mitigar | Redimensionar e comprimir imagens no aplicativo mobile (máximo ~300 KB) antes de gravar na fila | Enviar fotos em requisições separadas com retomada controlada | Julio e Gizela |
 | R05 | Mitigar | Documentar contratos em OpenAPI/Swagger antes da codificação dos frontends e notificar via PR | Realizar reunião técnica curta entre Pedro, Matheus e Julio para ajuste imediato | Pedro Vieira |
 | R06 | Evitar | Gerar snapshot JSONB imutável dos itens do checklist no momento do agendamento da inspeção | Bloquear exclusão física e manter versionamento explícito de templates | Pedro e Juan |
-| R07 | Mitigar | Priorizar funcionalidades P0 (MVP) nas primeiras sprints e acompanhar o avanço semanalmente | Redistribuir tarefas entre integrantes ou postergar itens P2 para pós-MVP | Julio Coronetti Regino |
+| R07 | Mitigar | Priorizar funcionalidades P0 (MVP) nas primeiras sprints e acompanhar o avanço semanalmente | Redistribuir tarefas entre integrantes ou postergar itens P2 para pós-MVP | Murilo Antunes da Silva |
 | R08 | Mitigar | Habilitar controle de flash/lanterna na tela do leitor e validar contraste das etiquetas impressas | Permitir seleção manual do equipamento pelo código identificador em caso de dano na etiqueta | Gizela Alves |
 | R09 | Mitigar | Padronizar versão da imagem PostgreSQL no Docker Compose e validar migrations na esteira de CI | Executar reset controlado do volume de desenvolvimento com script `seed.sql` | Juan |
 

@@ -5,7 +5,7 @@
 | Campo | Informação |
 |---|---|
 | **Projeto** | FieldOps — Sistema de Gerenciamento e Execução de Inspeções em Campo |
-| **Gerente do Projeto** | Julio Coronetti Regino |
+| **Gerente do Projeto** | Murilo Antunes da Silva |
 | **Data** | 22/08/2026 |
 | **Versão** | 1.0 |
 

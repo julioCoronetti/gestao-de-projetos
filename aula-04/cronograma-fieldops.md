@@ -5,7 +5,7 @@
 | Campo | Informação |
 |---|---|
 | **Projeto** | FieldOps — Sistema de Gerenciamento e Execução de Inspeções em Campo |
-| **Gerente do Projeto** | Julio Coronetti Regino |
+| **Gerente do Projeto** | Murilo Antunes da Silva |
 | **Data de Elaboração** | 23/08/2026 |
 | **Início Previsto** | 17/08/2026 |
 | **Término Previsto** | 04/12/2026 |
@@ -50,14 +50,14 @@ gantt
 
 | ID | Fase / Pacote | Atividade | Início | Término | Duração | Responsável | Dependência | Status |
 |---|---|---|---|---|---:|---|---|---|
-| A01 | 1. Gestão | Elaborar Termo de Abertura do Projeto (TAP) | 17/08 | 19/08 | 3d | Julio | — | Concluída |
+| A01 | 1. Gestão | Elaborar Termo de Abertura do Projeto (TAP) | 17/08 | 19/08 | 3d | Murilo | — | Concluída |
 | A02 | 1. Gestão | Mapear partes interessadas e matriz poder/interesse | 20/08 | 21/08 | 2d | Murilo | A01 | Concluída |
 | A03 | 1. Gestão | Elaborar Declaração de Escopo e critérios de aceite | 22/08 | 24/08 | 3d | Pedro | A01 | Concluída |
-| A04 | 1. Gestão | Construir Estrutura Analítica do Projeto (EAP) e dicionário | 22/08 | 24/08 | 3d | Julio | A03 | Concluída |
-| A05 | 1. Gestão | Definir cronograma detalhado, dependências e marcos | 25/08 | 26/08 | 2d | Julio | A04 | Planejada |
+| A04 | 1. Gestão | Construir Estrutura Analítica do Projeto (EAP) e dicionário | 22/08 | 24/08 | 3d | Murilo | A03 | Concluída |
+| A05 | 1. Gestão | Definir cronograma detalhado, dependências e marcos | 25/08 | 26/08 | 2d | Murilo | A04 | Planejada |
 | A06 | 1. Gestão | Elaborar orçamento e estimativa de custos | 27/08 | 28/08 | 2d | Murilo | A04 | Planejada |
 | A07 | 1. Gestão | Definir plano de qualidade e métricas de verificação | 27/08 | 28/08 | 2d | Pedro | A03 | Planejada |
-| A08 | 1. Gestão | Elaborar organograma, matriz RACI e plano de comunicação | 29/08 | 31/08 | 3d | Julio | A02, A05 | Planejada |
+| A08 | 1. Gestão | Elaborar organograma, matriz RACI e plano de comunicação | 29/08 | 31/08 | 3d | Murilo | A02, A05 | Planejada |
 | A09 | 1. Gestão | Mapear riscos, severidade e planos de resposta | 01/09 | 02/09 | 2d | Murilo | A05, A06 | Planejada |
 | A10 | 2. Arquitetura e DB | Definir arquitetura distribuída (Mobile, Web, API, Storage) | 24/08 | 26/08 | 3d | Pedro | A03 | Planejada |
 | A11 | 2. Arquitetura e DB | Especificar contratos iniciais de API (OpenAPI / DTOs) | 27/08 | 31/08 | 5d | Pedro | A10 | Planejada |
@@ -120,9 +120,9 @@ gantt
 
 | Responsável | Foco Principal | Atividades Alocadas |
 |---|---|---|
-| Julio Coronetti Regino | Gestão e Mobile (Offline / Sync / QR) | A01, A04, A05, A08, A39, A40, A42, A44, A46, A47, A51, A52, A54 |
+| Murilo Antunes da Silva | Gerente de Projeto / DevOps / CI-CD / Custos / Riscos | A01, A02, A04, A05, A06, A08, A09, A14, A49, A50, A51, A53, A54 |
+| Julio Coronetti Regino | Mobile (Offline / Sync / QR Code) | A39, A40, A42, A44, A46, A47, A51, A52, A54 |
 | Gizela Alves | Mobile (Telas / Checklist / Validação) | A41, A43, A45, A48, A51, A52, A54 |
 | Pedro Vieira | Backend / API REST / Regras de Negócio | A03, A07, A10, A11, A17–A29, A51, A53, A54 |
 | Matheus | Frontend Web (Dashboard / Construtor / Revisão) | A30–A38, A51, A54 |
 | Juan | Banco de Dados (Modelagem / Migrations / Seeds) | A12, A13, A15, A16, A51, A54 |
-| Murilo | DevOps / Docker / CI-CD / Custos / Riscos | A02, A06, A09, A14, A49, A50, A51, A53, A54 |

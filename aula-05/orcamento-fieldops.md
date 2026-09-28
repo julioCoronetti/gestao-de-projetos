@@ -5,7 +5,8 @@
 | Campo | Informação |
 |---|---|
 | **Projeto** | FieldOps — Sistema de Gerenciamento e Execução de Inspeções em Campo |
-| **Responsável pelo Orçamento** | Julio Coronetti Regino / Equipe FieldOps |
+| **Gerente do Projeto** | Murilo Antunes da Silva |
+| **Responsável pelo Orçamento** | Murilo Antunes da Silva / Equipe FieldOps |
 | **Data** | 29/08/2026 |
 | **Moeda** | Real Brasileiro (BRL — R$) |
 | **Período Considerado** | 4 meses (16 semanas / semestre letivo) |
@@ -19,7 +20,7 @@
 
 | ID | Categoria | Item | Responsável | Qtde | Unid. | Valor Unit. (R$) | Total (R$) |
 |---|---|---|---|---:|---|---:|---:|
-| C01 | Mão de Obra — Gestão | Gerenciamento de projeto, EAP e cronograma | Julio | 40 | h | 35,00 | 1.400,00 |
+| C01 | Mão de Obra — Gestão | Gerenciamento de projeto, EAP e cronograma | Murilo | 40 | h | 35,00 | 1.400,00 |
 | C02 | Mão de Obra — Gestão | Gestão de riscos, custos e governança Git | Murilo | 35 | h | 35,00 | 1.225,00 |
 | C03 | Mão de Obra — Arquitetura | Definição de arquitetura e contratos OpenAPI | Pedro | 30 | h | 35,00 | 1.050,00 |
 | C04 | Mão de Obra — Dados | Modelagem conceitual, lógica e DER | Juan | 45 | h | 35,00 | 1.575,00 |
